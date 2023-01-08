@@ -1,0 +1,13 @@
+###
+POST http://localhost:9000/api/product HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Iphone 12",
+  "price": 398.99,
+  "description": "Iphone 12 128GB",
+  "image": "../images/iphone12.jpeg",
+  "tag": "mobile"
+} 
+
+content
